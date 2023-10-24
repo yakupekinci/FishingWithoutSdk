@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00da28732a6b87419aa4e6d3ddc8c49, type: 3}
+  m_Name: PoolFish_Area1
+  m_EditorClassIdentifier: 
+  poolFishList:
+  - fishSO: {fileID: 11400000, guid: 1c9f920313caa6644afef35025687cb7, type: 2}
+    poolSize: 50
+  - fishSO: {fileID: 11400000, guid: 5948e2191ac00664a867f4b40baf73a0, type: 2}
+    poolSize: 30
+  - fishSO: {fileID: 11400000, guid: a385134703daa9246900afa2b6651e6a, type: 2}
+    poolSize: 30
+  - fishSO: {fileID: 11400000, guid: 6d2a6e27b16955748b6e4512d6f59dc4, type: 2}
+    poolSize: 30
+  - fishSO: {fileID: 11400000, guid: 58b78cf815c4a9c49a87abc77610f96b, type: 2}
+    poolSize: 30
+  - fishSO: {fileID: 11400000, guid: b46ea97efe903e448b9a5cb27c110949, type: 2}
+    poolSize: 20

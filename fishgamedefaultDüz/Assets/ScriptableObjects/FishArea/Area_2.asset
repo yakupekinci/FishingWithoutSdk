@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77fda25667bb114e99fd0bcf0d33a3d, type: 3}
+  m_Name: Area_2
+  m_EditorClassIdentifier: 
+  fishSpawnListColumn:
+  - fishSpawnList:
+    - fish: {fileID: -7577953054633717920, guid: ac54248ccd1c01d40afa5fd5198859be,
+        type: 3}
+      startSpawnAmount: 8
+  - fishSpawnList:
+    - fish: {fileID: 4930092539827066759, guid: 578ca5a864fa0b24ca4081d33e3e9185,
+        type: 3}
+      startSpawnAmount: 6
+  - fishSpawnList:
+    - fish: {fileID: 2422083683233378346, guid: 0ed48e2aad624fe4aaa08e8b2797c1bc,
+        type: 3}
+      startSpawnAmount: 6
+  - fishSpawnList:
+    - fish: {fileID: -1952161856189727277, guid: 035137bc20a2d834abb4ac5ec20b7ed2,
+        type: 3}
+      startSpawnAmount: 7
+  - fishSpawnList:
+    - fish: {fileID: -7767292164486536879, guid: 1aeadb56389f6ce4bb5dfb663d9b5526,
+        type: 3}
+      startSpawnAmount: 7
+  - fishSpawnList:
+    - fish: {fileID: -4692400072486742616, guid: 922aba975d80f7243b27bb15de767636,
+        type: 3}
+      startSpawnAmount: 4
+  - fishSpawnList:
+    - fish: {fileID: 2422083683233378346, guid: 0ed48e2aad624fe4aaa08e8b2797c1bc,
+        type: 3}
+      startSpawnAmount: 4
+  - fishSpawnList:
+    - fish: {fileID: -5996603118081601587, guid: 7b6b38171ae623143af78bb24e258cf2,
+        type: 3}
+      startSpawnAmount: 10
+  - fishSpawnList:
+    - fish: {fileID: -5176682322743686805, guid: 6fbfbecc04368704699d216075ca6258,
+        type: 3}
+      startSpawnAmount: 3

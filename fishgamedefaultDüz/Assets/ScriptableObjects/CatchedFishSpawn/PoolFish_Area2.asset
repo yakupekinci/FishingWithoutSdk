@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00da28732a6b87419aa4e6d3ddc8c49, type: 3}
+  m_Name: PoolFish_Area2
+  m_EditorClassIdentifier: 
+  poolFishList:
+  - fishSO: {fileID: 11400000, guid: 7bc29330559a4744ab9a696c905ec129, type: 2}
+    poolSize: 50
+  - fishSO: {fileID: 11400000, guid: bcd0e8f04da52a443a7fc9df98298732, type: 2}
+    poolSize: 40
+  - fishSO: {fileID: 11400000, guid: 90c1aaa53c692514e8d737c2b1964105, type: 2}
+    poolSize: 35
+  - fishSO: {fileID: 11400000, guid: 232f417e778952a4babed89187729c42, type: 2}
+    poolSize: 35
+  - fishSO: {fileID: 11400000, guid: 26af3b5ff8ca8974bae7c892367099b3, type: 2}
+    poolSize: 35
+  - fishSO: {fileID: 11400000, guid: 741327ec3e319504e92411893b96ac42, type: 2}
+    poolSize: 25
+  - fishSO: {fileID: 11400000, guid: 7abb2189b85e8b847a8964eb56c682ae, type: 2}
+    poolSize: 25
+  - fishSO: {fileID: 11400000, guid: 10d2fe90acb3c5f4eafd55110ba71e53, type: 2}
+    poolSize: 25
+  - fishSO: {fileID: 11400000, guid: a9cfaeb3515705141813fe1b8589e39c, type: 2}
+    poolSize: 25

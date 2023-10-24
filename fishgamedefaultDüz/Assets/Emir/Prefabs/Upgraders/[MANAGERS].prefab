@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7021107130081291427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7021107130081291424}
+  m_Layer: 0
+  m_Name: '[MANAGERS]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7021107130081291424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021107130081291427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7021107130714043458}
+  - {fileID: 7021107130113245446}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7021107130113245440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7021107130113245446}
+  - component: {fileID: 7021107130113245441}
+  m_Layer: 0
+  m_Name: SaveLoadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7021107130113245446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021107130113245440}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7021107130081291424}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7021107130113245441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021107130113245440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b70aeec4709f8743b63520b43a1146a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradesInt:
+  - variable: {fileID: 11400000, guid: bd953422d48afd64e9129400ab03842e, type: 2}
+    saveName: hookcapacityval
+    defaultValue: 3
+  - variable: {fileID: 11400000, guid: 17d51635d9863184a963ef8c8e034277, type: 2}
+    saveName: playerStorageval
+    defaultValue: 4
+  - variable: {fileID: 11400000, guid: 82a286b2345d26e459cabbed11f063fc, type: 2}
+    saveName: workerStackVal
+    defaultValue: 6
+  - variable: {fileID: 11400000, guid: a7615753a0fa3e74ca4544e5779bbc4a, type: 2}
+    saveName: fisherStackVal
+    defaultValue: 4
+  - variable: {fileID: 11400000, guid: 49ba681a650ff7c48bea0d97fb0afbca, type: 2}
+    saveName: boatCapacityval
+    defaultValue: 9
+  upgradesFloat:
+  - variable: {fileID: 11400000, guid: eb69e6fff71c44241bab69302642ee57, type: 2}
+    saveName: hooklengthval
+    defaultValue: 4
+  - variable: {fileID: 11400000, guid: e3b772f2422c47d4a8539c5f6640b210, type: 2}
+    saveName: hookspeedval
+    defaultValue: 1
+  - variable: {fileID: 11400000, guid: c25fc0bb75e89c8448045f8faa611890, type: 2}
+    saveName: playerSpeedval
+    defaultValue: 10
+  - variable: {fileID: 11400000, guid: c7353acc66cae224d80a3c2e59fa4308, type: 2}
+    saveName: workerSpeedVal
+    defaultValue: 15
+  - variable: {fileID: 11400000, guid: 07ee46ca888a9364dbb6dd7eb7f49b6d, type: 2}
+    saveName: fisherSpeedVal
+    defaultValue: 5
+  - variable: {fileID: 11400000, guid: 7b95634e8fe137e4185466b71ca2b4db, type: 2}
+    saveName: boatDurationval
+    defaultValue: 10
+--- !u!1 &7021107130714043484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7021107130714043458}
+  - component: {fileID: 7021107130714043485}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7021107130714043458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021107130714043484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7021107130081291424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7021107130714043485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021107130714043484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c3e49b91ca8064bba7b3fc73331978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldTMP: {fileID: 0}
+  gold: {fileID: 11400000, guid: 6de83c168d3f59b4e9db35f60d5871ff, type: 2}
